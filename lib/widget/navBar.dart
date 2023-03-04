@@ -15,7 +15,10 @@ class NavBar extends StatelessWidget {
               padding: const EdgeInsets.only(right: 8),
               child: Text(
                 item,
-                style: const TextStyle(color: Colors.white),
+                style: const TextStyle(
+                    color: Colors.white,
+                    fontFamily: "Quicksand",
+                    fontWeight: FontWeight.w500),
               ),
             ))
         .toList();
@@ -31,13 +34,9 @@ class NavBar extends StatelessWidget {
           children: <Widget>[
             Container(
               padding: const EdgeInsets.only(left: 50),
-              child: const Text(
-                "Rahaf",
-                style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 25,
-                    fontWeight: FontWeight.bold),
-              ),
+              child: Image.asset("assets/images/RahafLogo.png")
+              
+              
             ),
             Container(
               padding: const EdgeInsets.all(8),
@@ -57,7 +56,6 @@ class NavBar extends StatelessWidget {
                             topRight: Radius.circular(10),
                           ),
                         ),
-                    
                         gradient: LinearGradient(
                             begin: Alignment.topLeft,
                             end: Alignment.bottomRight,
@@ -67,9 +65,10 @@ class NavBar extends StatelessWidget {
                             ]),
                       ),
                       child: const Center(
-                        child:  Text(
+                        child: Text(
                           "Contact Me",
-                          style: TextStyle(fontSize: 15, color: Colors.white),
+                          style: TextStyle(fontSize: 15, color: Colors.white,  fontFamily: "Quicksand",
+                    fontWeight: FontWeight.w800),
                         ),
                       ),
                     ),

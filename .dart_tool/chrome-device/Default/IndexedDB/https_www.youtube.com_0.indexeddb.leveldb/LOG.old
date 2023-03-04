@@ -1,3 +1,17 @@
-2023/03/04-12:30:54.010 6fc4 Reusing MANIFEST C:\Users\GIGABYTE\AppData\Local\Temp\flutter_tools.c071c787\flutter_tools_chrome_device.b194e3d8\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/04-12:30:54.010 6fc4 Recovering log #4
-2023/03/04-12:30:54.011 6fc4 Reusing old log C:\Users\GIGABYTE\AppData\Local\Temp\flutter_tools.c071c787\flutter_tools_chrome_device.b194e3d8\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2023/03/04-19:02:43.687 5500 Reusing MANIFEST C:\Users\GIGABYTE\AppData\Local\Temp\flutter_tools.ffb4e4bc\flutter_tools_chrome_device.79aaa00a\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/04-19:02:43.687 5500 Recovering log #22
+2023/03/04-19:02:43.688 5500 Reusing old log C:\Users\GIGABYTE\AppData\Local\Temp\flutter_tools.ffb4e4bc\flutter_tools_chrome_device.79aaa00a\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000022.log 
+2023/03/04-19:02:43.688 5500 Delete type=0 #3
+2023/03/04-19:02:43.688 5500 Delete type=0 #4
+2023/03/04-19:02:43.688 5500 Delete type=2 #5
+2023/03/04-19:02:43.688 5500 Delete type=0 #7
+2023/03/04-19:02:43.688 5500 Delete type=2 #21
+2023/03/04-19:02:43.956 9054 Level-0 table #27: started
+2023/03/04-19:02:43.958 9054 Level-0 table #27: 6707 bytes OK
+2023/03/04-19:02:43.960 9054 Delete type=0 #22
+2023/03/04-19:02:43.960 5500 Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x01\x01\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 6472 : 1
+2023/03/04-19:02:43.960 5500 Compacting 1@0 + 1@1 files
+2023/03/04-19:02:43.963 5500 Generated table #28@0: 2203 keys, 25598 bytes
+2023/03/04-19:02:43.963 5500 Compacted 1@0 + 1@1 files => 25598 bytes
+2023/03/04-19:02:43.964 5500 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/04-19:02:43.964 5500 Manual compaction at level-0 from '\x00\x0d\x01\x01\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 6472 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)
